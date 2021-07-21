@@ -1,4 +1,11 @@
 // TODO: Write code to define and export the Employee class
+const inquirer = require("inquirer");
+const engineer = require("./Engineer");
+const manager = require("./Manager");
+const intern = require("./Intern");
+
+
+
 function Employee(Name, Role, Id, Email, OfficeNumber, Github, School) {
     this.name = Name
     this.role = Role
@@ -9,23 +16,24 @@ function Employee(Name, Role, Id, Email, OfficeNumber, Github, School) {
     this.school = School
 };
 
-var engineer = new Employee
+let engineer = new Employee
 engineer.name = "";
 engineer.role = "";
 engineer.id = "";
 engineer.email = "";
 engineer.github = "";
 
-var manager = new Employee
+let manager = new Employee
 manager.name = "";
 manager.role = "";
 manager.id = "";
 manager.email = "";
 manager.officeNumber = "";
 
-var intern = new Employee
+let intern = new Employee
 intern.name = "";
 intern.role = "";
 intern.id = "";
 intern.email = "";
 intern.school = "";
+
