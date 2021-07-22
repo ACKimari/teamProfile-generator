@@ -4,5 +4,11 @@ class Employee {
     constructor (person) {
         this.employeedetails = person
     }
+
+}
+
+class Engineer extends Employee{
     
 }
+
+module.exports = Engineer
