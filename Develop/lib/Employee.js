@@ -52,13 +52,13 @@ const intern = require("./Intern");
 // }
 
 function Employee(Name, Role, Id, Email, OfficeNumber, Github, School) {
-    this.name = Name
-    this.role = Role
-    this.id = Id
-    this.email = Email
-    this.officeNumber = OfficeNumber
-    this.github = Github
-    this.school = School
+    this.name = Name;
+    this.role = Role;
+    this.id = Id;
+    this.email = Email;
+    this.officeNumber = OfficeNumber;
+    this.github = Github;
+    this.school = School;
 };
 
 let engineer = new Employee

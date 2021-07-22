@@ -1,14 +1,16 @@
 // TODO: Write code to define and export the Engineer class.  HINT: This class should inherit from Employee.
 
 class Employee {
-    constructor (person) {
-        this.employeedetails = person
+    constructor (name) {
+        this.name = name;
     }
-
+    engineerName(){
+        return `Name: ${this.name}`;
+    }
 }
 
 class Engineer extends Employee{
-    
+    constructor(name, role)
 }
 
 module.exports = Engineer
