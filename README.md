@@ -20,3 +20,8 @@ Step 5: generate your html file and design your work by creating a style.css fil
 
 
 ![webpage Screenshot](./teamprofileoutcome.png)
+
+
+## Project Video
+
+https://drive.google.com/file/d/1gZ01wat3Ktf1UFiqmbfaN4qr_HFUM5B_/view?usp=sharing : Link to project walkthrough.
